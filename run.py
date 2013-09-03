@@ -39,13 +39,13 @@ def checkblogs():
             contents = yaml.load(students)
 
             if not isinstance(contents, list):
-                raise ValueError("%r is fucked up" % fname)
+                raise ValueError("%r is borked" % fname)
 
             student_data.extend(contents)
             #print gravatar(contents[0]['rit_dce'] + "@rit.edu")
 
     student_posts = {}
-    target = datetime(2013, 06, 02)
+    target = datetime(2013, 8, 25)
     for student in student_data:
         when = []
         if student.get('feed'):
@@ -71,10 +71,13 @@ def checkblogs():
 
         student_posts[student['irc']] = len(when)
 
-    average = sum(student_posts.values()) / float(len(student_posts))
+    if student_posts:
+        average = sum(student_posts.values()) / float(len(student_posts))
+    else:
+        average = 0
     #print('Average of %f posts' % average)
-    target_number = (datetime.today() - target).total_seconds() /\
-        timedelta(weeks=1).total_seconds()
+    target_number = int((datetime.today() - target).total_seconds() /\
+        timedelta(weeks=1).total_seconds() + 1)
     #for student, count in student_posts.items():
     #    if count > target_number:
     #        print('+++%d %s' % (count, student))
@@ -90,23 +93,28 @@ def checkblogs():
 def index():
     return render_template('home.mak', name='mako')
 
+
 @app.route('/sj')
-def decause():
+def sj():
     return render_template('sj.mak', name='mako')
+
 
 @app.route('/syllabus')
 def syllabus():
     return render_template('syllabus.mak', name='mako')
 
+
 @app.route('/about')
 def about():
     return render_template('about.mak', name='mako')
+
 
 @app.route('/books')
 def books():
     books = os.listdir(os.path.join(os.path.split(__file__)[0], 'static',
                                     'books'))
     return render_template('books.mak', name='mako', books=books)
+
 
 @app.route('/slides')
 def slides():
@@ -115,6 +123,7 @@ def slides():
 
     return render_template('decks.mak', name='mako', decks=decks)
 
+
 @app.route('/hw')
 def hws():
     hws = os.listdir(os.path.join(os.path.split(__file__)[0], 'static',
@@ -122,9 +131,11 @@ def hws():
 
     return render_template('hw.mak', name='mako', hws=hws)
 
+
 @app.route('/firstflight')
 def fflight():
     return render_template('fflight.mak', name='mako', hws=hws)
+
 
 @app.route('/oer')
 def oer():
@@ -138,6 +149,7 @@ def oer():
                                     'challenges'))
 
     return render_template('oer.mak', name='mako', decks=decks, books=books, challenges=challenges)
+
 
 @app.route('/carousel')
 def carousel():
