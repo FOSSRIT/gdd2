@@ -90,9 +90,9 @@ def checkblogs():
 def index():
     return render_template('home.mak', name='mako')
 
-@app.route('/decause')
+@app.route('/sj')
 def decause():
-    return render_template('decause.mak', name='mako')
+    return render_template('sj.mak', name='mako')
 
 @app.route('/syllabus')
 def syllabus():
