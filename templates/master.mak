@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>${self.title()}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="RIT HFOSS course website">
+    <meta name="description" content="RIT GDD2 course website">
     <meta name="author" content="RemyD">
 
     <!-- Le styles -->
@@ -54,10 +54,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="/">HFOSS@RIT</a>
+          <a class="brand" href="/">GDD2@RIT</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
-              Fork me on <a target="_blank" href="http://github.com/decause/hflossk" class="navbar-link">Github</a>
+              Fork me on <a target="_blank" href="http://github.com/FOSSRIT/gdd2" class="navbar-link">Github</a>
             </p>
             <ul class="nav">
               <li><a href="/">Home</a></li>
@@ -65,9 +65,9 @@
               <li><a href="/syllabus">Syllabus</a></li>
               <li><a href="/oer">Resources</a></li>
               <li><a href="/hw">Assignments</a></li>
-              <li><a href="/decause">Instructor</a></li>
+              <li><a href="/sj">Instructor</a></li>
               <li><a href="/checkblogs">Participants</a></li>
-              <li><a href="mailto:remydcsi@rit.edu">Contact</a></li>
+              <li><a href="mailto:sj@mail.rit.edu">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -81,10 +81,10 @@
             <ul class="nav nav-list">
             <li class="nav-header"></li>
             <li><i class="icon-calendar"></i>08/26/2013 - 12/14/2013</li>
-            <li><i class="icon-bell"></i>Mon &amp; Wed 5:00PM - 6:15PM</li>
-            <li><i class="icon-shopping-cart"></i>4085.582.01</li>
-            <li><i class="icon-map-marker"></i>Orange Hall (ORN)-1375</li>
-            <li><i class="icon-envelope"></i>remydcsi[at]rit[dot]edu</li>
+            <li><i class="icon-bell"></i>Tues &amp; Thurs 12:30PM - 1:45PM</li>
+            <li><i class="icon-shopping-cart"></i>4085.320.01</li>
+            <li><i class="icon-map-marker"></i>Golisano Hall (GOL)-2435</li>
+            <li><i class="icon-envelope"></i>sj[at]mail[dot]rit[dot]edu</li>
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
@@ -120,4 +120,4 @@
   </body>
 </html>
 
-<%def name="title()">HFOSS@RIT</%def>
+<%def name="title()">GDD2@RIT</%def>
