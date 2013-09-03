@@ -9,9 +9,9 @@ from setuptools import setup, find_packages
 version = "0.1.0"
 
 setup(
-    name="hflossk",
+    name="gdd2",
     version=version,
-    description="HFOSS course materials via flask",
+    description="RIT GDD2 course materials via flask",
     classifiers=[
         "Intended Audience :: Education",
         "Topic :: Education :: Computer Aided Instruction (CAI)",
@@ -19,7 +19,7 @@ setup(
     keywords="",
     author="Remy DeCausemaker",
     author_email="remyd@civx.us",
-    url="http://fossrit.github.io/hflossk",
+    url="http://gdd2-magicrit.rhcloud.com",
     license="GPLv3+",
     packages=find_packages(
     ),
@@ -31,7 +31,6 @@ setup(
         "flask-mako",
         "feedparser",
         "pyyaml",
-        "frozen-flask",
     ],
     #TODO: Deal with entry_points
     #entry_points="""
