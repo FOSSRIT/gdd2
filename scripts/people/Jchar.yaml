@@ -1,6 +1,7 @@
 # So I hope this format is right.
 - blog: http://jcgamedesign.wordpress.com
+  feed: http://jcgamedesign.wordpress.com/1/feed
   forges:
     - http://github.com/JCsquared
-  irc: decause
+  irc: Jchar
   name: Jesse Charland
