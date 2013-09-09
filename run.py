@@ -101,7 +101,7 @@ def sj():
 
 @app.route('/syllabus')
 def syllabus():
-    return render_template('tbd.mak', name='mako')
+    return render_template('syllabus.mak', name='mako')
 
 
 @app.route('/about')
