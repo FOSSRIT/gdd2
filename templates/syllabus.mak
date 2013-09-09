@@ -58,10 +58,10 @@ Your Grade will come from:
 
 <table border="1" class="docutils">
 <colgroup>
-<col width="9%" />
+<col width="11%" />
 <col width="38%" />
-<col width="26%" />
-<col width="26%" />
+<col width="25%" />
+<col width="25%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd">
