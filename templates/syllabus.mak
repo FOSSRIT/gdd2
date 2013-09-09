@@ -1,7 +1,7 @@
 <%inherit file="master.mak"/>
 
 <%def name="title()">
-    Syllabus &mdash; The RIT HFOSS Development Course documentation
+    Syllabus &mdash; RIT Game Design &amp; Development 2
 </%def>
 
 <div class="hero-unit" id="syllabus">
