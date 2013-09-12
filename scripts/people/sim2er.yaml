@@ -1,0 +1,11 @@
+# I can't read. based off of remy's example file
+- blog: http://gdd2student.tumblr.com
+  feed: http://gdd2student.tumblr.com/rss
+  forges:
+	- http://github.com/sim2er
+  profiles:
+	- facebook
+	- skype (sim2er)
+	- linkedin
+  name: Thane Armbruster
+  rit_dce: tea4723
