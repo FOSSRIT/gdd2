@@ -89,91 +89,91 @@ Your Grade will come from:
 <td>9/10 &amp; 9/12</td>
 <td>Scrum Lecture online from Alex Lifschitz</td>
 <td>Studio Time</td>
-<td>Weekly Blogging<br/>Production Plan Assigned</td>
+<td>Weekly Blogging Due Friday<br/>Production Plan Assigned</td>
 </tr>
 
 <tr>
 <td>9/17 &amp; 9/19</td>
 <td>Design Lecture online from Kate Edwards</td>
-<td>Studio Time</td>
-<td>Weekly Blogging<br/>Production Plan Due</td>
+<td>First Weekly Blog<br/>Production Plan Due on Thursday in Discussion Group</td>
+<td>Weekly Blogging Due Friday<br/>Production Plan Due</td>
 </tr>
 
 <tr>
 <td>9/24 &amp; 9/26</td>
 <td>Lecture or in-class activities TBA</td>
 <td>Studio Time</td>
-<td>Weekly Blogging<br/>End of Sprint 1 presentation</td>
+<td>Weekly Blogging Due Friday<br/>End of Sprint 1 presentation</td>
 </tr>
 
 <tr>
 <td>10/1 &amp; 10/3</td>
 <td>Lecture or in-class activities TBA</td>
 <td>Studio Time</td>
-<td>Weekly Blogging</td>
+<td>Weekly Blogging Due Friday</td>
 </tr>
 
 <tr>
 <td>10/8 &amp; 10/10</td>
-<td>Class Canceled, Prep and Practice Presentations</td>
-<td>Presentations</td>
-<td>Weekly Blogging<br/>End of Sprint 2 presentation</td>
+<td>Professor Travelling, Coverage TBA</td>
+<td>Studio Time</td>
+<td>Weekly Blogging Due Friday<br/>End of Sprint 2 presentation</td>
 </tr>
 
 <tr>
 <td>10/17</td>
 <td>Studio Time</td>
 <td>Studio Time</td>
-<td>Weekly Blogging<br/>Peer Evaluations</td>
+<td>Weekly Blogging Due Friday<br/>Peer Evaluations</td>
 </tr>
 
 <tr>
 <td>10/22 &amp;10/24</td>
 <td>Lecture or in-class activities TBA</td>
 <td>Studio Time</td>
-<td>Weekly Blogging<br/>End of Sprint 3 presentation</td>
+<td>Weekly Blogging Due Friday<br/>End of Sprint 3 presentation</td>
 </tr>
 
 <tr>
 <td>10/29 &amp; 10/31</td>
 <td>Lecture or in-class activities TBA</td>
 <td>Studio Time</td>
-<td>Weekly Blogging</td>
+<td>Weekly Blogging Due Friday</td>
 </tr>
 
 <tr>
 <td>11/5 &amp; /11/7</td>
 <td>Lecture or in-class activities TBA</td>
 <td>Studio Time</td>
-<td>Weekly Blogging<br/>End of Sprint 4 presentation</td>
+<td>Weekly Blogging Due Friday<br/>End of Sprint 4 presentation</td>
 </tr>
 
 <tr>
 <td>11/12 &amp; 11/14</td>
 <td>Lecture or in-class activities TBA</td>
 <td>Studio Time</td>
-<td>Weekly Blogging</td>
+<td>Weekly Blogging Due Friday</td>
 </tr>
 
 <tr>
 <td>11/19 &amp; 11/21</td>
 <td>Lecture or in-class activities TBA</td>
 <td>Studio Time</td>
-<td>Weekly Blogging<br/>End of Sprint 5 presentation</td>
+<td>Weekly Blogging Due Friday<br/>End of Sprint 5 presentation</td>
 </tr>
 
 <tr>
 <td>11/26</td>
 <td>Studio Time</td>
 <td>Studio Time</td>
-<td>Weekly Blogging</td>
+<td>Weekly Blogging Due Friday</td>
 </tr>
 
 <tr>
 <td>12/3 &amp; 12/5</td>
 <td>Lecture or in-class activities TBA</td>
 <td>Studio Time</td>
-<td>Weekly Blogging<br/>End of Sprint 6 presentation</td>
+<td>Weekly Blogging Due Friday<br/>End of Sprint 6 presentation</td>
 </tr>
 
 <tr>
