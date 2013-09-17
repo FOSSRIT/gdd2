@@ -45,7 +45,7 @@ def checkblogs():
             #print gravatar(contents[0]['rit_dce'] + "@rit.edu")
 
     student_posts = {}
-    target = datetime(2013, 8, 25)
+    target = datetime(2013, 9, 20)
     for student in student_data:
         when = []
         if student.get('feed'):
