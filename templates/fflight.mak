@@ -24,9 +24,9 @@ There is a course IRC channel on irc.freenode.net. The channel is
 Practices component of your final grade.
 </p>
 
-<div class="alert alert-success">
+<div class="alert alert-info">
 <dl>
-    <dt><h3 class="label label-success">Tasks:</h3></dt>
+    <dt><h3 class="label label-info">OPTIONAL:</h3></dt>
     <dd><ul class="first last simple">
         <li>Download and install an IRC client on your development machine.
           <ul>
