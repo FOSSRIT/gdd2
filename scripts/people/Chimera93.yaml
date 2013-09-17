@@ -1,4 +1,7 @@
+#This is some flavor text about this student, which shall be changed by said
+#student
 - blog: http://gdd2leapoffaith.blogspot.com
+  feed: http://gdd2leapoffaith.blogspot.com/feeds/posts/default
   forges:
     - http://github.com/Chimera93
   irc: Chimera93
