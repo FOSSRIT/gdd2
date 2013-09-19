@@ -1,7 +1,7 @@
 # I'm doing this for class, hope it works.
 - blog: http://brocktonroth.wordpress.com/
-  feed: 
-  forges:
+  feed: http://brocktonroth.wordpress.com/feed/
+  forges: https://github.com/brockton
   irc: Severity
   name: Brockton Roth
   rit_dce: bnr3691
