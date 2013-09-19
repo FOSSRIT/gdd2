@@ -1,7 +1,8 @@
-# I'm doing this for class, hope it works.
+# Hi.
 - blog: http://brocktonroth.wordpress.com/
   feed: http://brocktonroth.wordpress.com/feed/
-  forges: https://github.com/brockton
+  forges:
+    - https://github.com/brockton
   irc: Severity
   name: Brockton Roth
   rit_dce: bnr3691
