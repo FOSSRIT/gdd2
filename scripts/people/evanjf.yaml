@@ -1,7 +1,7 @@
 - blog: http://evanjf.wordpress.com/
   feed: http://evanjf.wordpress.com/feed/
   forges:
-    - 
+    - http://github.com/evanjf
   irc: evanjf
   name: Evan Francis
   rit_dce: ejf1872
