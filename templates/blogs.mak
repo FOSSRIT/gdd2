@@ -1,4 +1,4 @@
-<%inherit file="master.mak"/>
+<%inherit file="master.mak" />
 
 <div class="hero-unit">
 <h1>Participants</h1>
@@ -10,15 +10,16 @@
 <div class="row-fluid">
   %for student in student_data:
     <div class="span4 shadowcard padded">
-    <img class="uglymug" src="${gravatar(student['rit_dce'] + '@rit.edu')}" />
+    <img class="uglymug" src="${gravatar(student['rit_dce'] + '@rit.edu')}" alt="${student['irc']}'s Avatar" />
     <h4 class="irc_nick">${student['irc']}</h4>
-    <div class="sticky padded ${'bad' if student_posts[student['irc']] < target_number else 'good'}">
+    <div class="sticky padded ${'good' if student_posts[student['irc']] >= target_number else 'bad'}">
     <i class="icon-pencil"></i>
     <span>${student_posts[student['irc']]}</span></div>
-    <a target="_blank" href="${student['blog']}">${student['blog']}</a></p>
-    <ul class="unstyled">
+    <p><a target="_blank" href="${student['blog']}">Blog</a></p>
+    <ul class="unstyled cardlist">
+
     % for geordi in student['forges']:
-    <li><a target="_blank" class="reference external" href="${geordi}">${geordi}</a></li>
+    <li><a target="_blank" href="${geordi}">${geordi}</a></li>
     %endfor
     </ul>
     <p><a class="btn" href="#">View details &raquo;</a></p>
