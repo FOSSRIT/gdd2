@@ -1,8 +1,8 @@
-+# "Is this right?"
-+- blog: http://scmoon.wordpress.com/
-+  feed: http://scmoon.wordpress.com/feed
-+  forges:
-+    - http://github.com/scmoon
-+  irc: scmoon
-+  name: Sean Mooney
-+  rit_dce: scm5259
+# "Is this right?"
+- blog: http://seanmooney127.wordpress.com/
+  feed: http://seanmooney127.wordpress.com/feed
+  forges:
+    - http://github.com/scmoon
+  irc: scmoon
+  name: Sean Mooney
+  rit_dce: scm5259
