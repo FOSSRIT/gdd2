@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>${self.title()}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="RIT HFOSS course website" />
+    <meta name="description" content="RIT GDD2 course website" />
     <meta name="author" content="RemyD" />
 
     <!-- Le styles -->
@@ -53,7 +53,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="/">HFOSS@RIT</a>
+          <a class="brand" href="/">GDD2@RIT</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
               Fork me on <a target="_blank" href="http://github.com/FOSSRIT/gdd2" class="navbar-link">Github</a>
