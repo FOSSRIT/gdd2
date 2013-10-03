@@ -18,6 +18,10 @@
     <p><a target="_blank" href="${student['blog']}">Blog</a></p>
     <ul class="unstyled cardlist">
 
+    % if student_names.get(student['irc']):
+    <li>${student_names[student['irc']]}</li>
+    % endif
+
     % for geordi in student['forges']:
     <li><a target="_blank" href="${geordi}">${geordi}</a></li>
     %endfor
