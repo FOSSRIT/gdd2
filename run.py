@@ -51,6 +51,7 @@ def checkblogs():
                 student_data.extend(contents)
 
         student_posts = {}
+        student_names = {}
 
         target = datetime(2013, 9, 05)
         for student in student_data:
@@ -71,6 +72,10 @@ def checkblogs():
 
             student_posts[student['irc']] = len(when)
 
+            if student.get('name'):
+                print('Checking %s' % student['name'])
+                student_names[student['irc']] = student['name']
+
         average = sum(student_posts.values()) / float(len(student_posts))
 
         target_number = int((datetime.today() - target).total_seconds() /
@@ -80,6 +85,7 @@ def checkblogs():
                                student_data=student_data,
                                student_posts=student_posts,
                                gravatar=gravatar, average=average,
+                               student_names=student_names,
                                target_number=target_number)
 
 
