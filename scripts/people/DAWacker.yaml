@@ -1,6 +1,5 @@
-#What did you do Wilson?
-- blog: http://foss.rit.edu/blog/41941
-  feed: http://foss.rit.edu/blog/41941/feed
+- blog: http://dawacker.wordpress.com/
+  feed: http://dawacker.wordpress.com/?feed=rss2 
   forges:
     - https://github.com/DAWacker
   irc: DAWacker
