@@ -10,7 +10,7 @@
         <img width="132px" height="132px" src="https://si0.twimg.com/profile_images/52672445/sjheadshot.jpg"/>
         <ul class="unstyled padded">
         <%
-            links = ['http://gryponscratches.blogspot.com',
+            links = ['http://gryphonscratches.blogspot.com',
                      'http://linkedin.com/in/itprofjacobs',
                      'http://opensource.com/users/stephenjacobs',
                     ]
